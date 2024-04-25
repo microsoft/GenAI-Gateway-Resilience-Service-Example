@@ -1,7 +1,7 @@
 # GenAI Gateway Resilience Service
-The OpenAI Gateway Service is a cookiecutter repository that functions 
+This is a cookiecutter repository for a Gen AI Gateway Service. It serves 
 as a gateway service for multiple OpenAI models. This service is designed to implement 
-a resilient gateway service that balances traffic between a primary and a fallback model. 
+a resilient operation mechanism that implements a fallback mechanism between a primary and a fallback model. 
 This repository is particularly suited for smaller architectures that 
 use multiple LLMs models or architectures that don't have access to enterprise-grade balancing services or managed solutions. It
 could also be used as a starting point for more complex gateway services implement other operational patterns 
