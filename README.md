@@ -5,7 +5,7 @@ a resilient operation mechanism that implements a fallback mechanism between a p
 This repository is particularly suited for smaller architectures that 
 use multiple LLMs models or architectures that don't have access to enterprise-grade balancing services or managed solutions. It
 could also be used as a starting point for more complex gateway services implement other operational patterns 
-that can be found [here](https://internal.playbook.microsoft.com/code-with-mlops/technology-guidance/generative-ai/dev-starters/genai-gateway/operational-excellence/).
+that can be found [here](https://internal.playbook.microsoft.com/code-with-mlops/technology-guidance/generative-ai/dev-starters/genai-gateway/#5-key-considerations-while-building-genai-gateway).
 
 ## Features
 * Fast API: Serves as a centralized entry point for accessing multiple OpenAI models.
