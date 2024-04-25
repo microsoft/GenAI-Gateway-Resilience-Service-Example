@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "unimate-open-ai-gateway"
+version = "1.2.0"
+description = "A gateway service for OpenAI LLM models that implements balancing between multiple models and handling requests."
+authors = ["MDUYN"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+requests = "2.31.0"
+fastapi = "0.110.0"
+httpx = "0.25.1"
+uvicorn = "0.27.1"
+pydantic-settings = "2.1.0"
+python-dotenv = "1.0.0"
+dependency-injector = "4.41.0"
+azure-monitor-opentelemetry-exporter = "1.0.0b23"
+opentelemetry-instrumentation-fastapi = "0.44b0"
+azure-monitor-opentelemetry = "1.2.0"
+
+[tool.poetry.group.test.dependencies]
+coverage= "7.4.2"
+flake8 = "7.0.0"
+Flask-Testing = "^0.8.1"
+pytest = "8.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
